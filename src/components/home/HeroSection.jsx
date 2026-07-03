@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen flex items-center">
+    <section className="min-h-[calc(100vh-80px)] flex items-center py-12">
 
     <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-12 ">
 
