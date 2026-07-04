@@ -1,33 +1,32 @@
 import {
-  HiOutlineClipboardList,
-  HiOutlineChartBar,
+  HiOutlineClipboardCheck,
+  HiOutlinePhone,
   HiOutlineCheckCircle,
-  HiOutlineArrowRight,
 } from "react-icons/hi";
 
 export const howItWorks = [
   {
     id: 1,
     step: "01",
-    icon: HiOutlineClipboardList,
-    title: "Register Complaint",
+    icon: HiOutlineClipboardCheck,
+    title: "Book a Service",
     description:
-      "Submit your complaint by filling out the registration form.",
+      "Choose the IT service you need and submit your request online.",
   },
   {
     id: 2,
     step: "02",
-    icon: HiOutlineChartBar,
-    title: "Track Progress",
+    icon: HiOutlinePhone,
+    title: "Expert Contact",
     description:
-      "Track your complaint status with real-time updates.",
+      "Our technician will contact you to confirm the details and schedule the service.",
   },
   {
     id: 3,
     step: "03",
     icon: HiOutlineCheckCircle,
-    title: "Issue Resolved",
+    title: "Service Completed",
     description:
-      "Receive notification once your complaint is resolved.",
+      "Our expert resolves your issue efficiently, ensuring complete satisfaction.",
   },
 ];

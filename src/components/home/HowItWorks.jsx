@@ -18,8 +18,7 @@ const HowItWorks = () => {
           </h2>
 
           <p className="mt-4 max-w-2xl mx-auto text-lg text-gray-600">
-            A simple 3-step process to register, track and resolve your
-            complaint easily.
+               Get your IT issues resolved in three simple steps.
           </p>
         </div>
 

@@ -11,8 +11,7 @@ const FeaturesSection = () => {
           </h2>
 
           <p className="mt-4 max-w-2xl mx-auto text-lg text-gray-600">
-            Smart features designed to simplify complaint registration,
-            tracking, and resolution for a better community.
+           Professional IT solutions designed to keep your home and business running smoothly.
           </p>
         </div>
 

@@ -13,31 +13,28 @@ const HeroSection = () => {
             transition={{ duration: 0.8 }} > 
 
             <p className="inline-block bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-medium">
-                🚀 Smart Complaint Management System
+                🛠 Trusted IT Service Provider
             </p>
 
-            <h1 className="text-4xl md:text-6xl font-bold leading-tight" >
-                Raise Your Voice.
+            <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+                Reliable IT Solutions
                 <br />
-                Build a Better Community.
+                for Your Home & Business
             </h1>
 
             <p className="text-lg text-gray-600">
-                Report local issues, track their progress in real time,
-                and help create a cleaner, safer, and smarter community.
+                From Windows installation and network setup to website development,
+                we provide fast, reliable, and affordable IT solutions tailored to
+                your needs.
             </p>
-
-            <div className="flex gap-4">
-
+           <div className="flex gap-4">
                 <button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
-                    Register Complaint
+                    Book a Service
                 </button>
-
 
                 <button className="border border-blue-600 text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-600 hover:text-white transition">
-                    Track Complaint
+                    Explore Services
                 </button>
-
             </div>
 
         </motion.div>

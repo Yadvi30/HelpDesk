@@ -1,49 +1,47 @@
 import {
-  HiOutlineClipboardList,
-  HiOutlineLocationMarker,
-  HiOutlineBell,
+  HiOutlineDesktopComputer,
+  HiOutlineClock,
   HiOutlineShieldCheck,
-  HiOutlineUsers,
-  HiOutlineChartBar,
+  HiOutlineSupport,
+  HiOutlineCurrencyDollar,
+  HiOutlineThumbUp,
 } from "react-icons/hi";
 
- export const features = [
+export const features = [
   {
-    id:  1,
-    icon: HiOutlineClipboardList,
-    title: "Easy Complaint Registration",
-    description: "Submit complaints in just a few clicks."
+    id: 1,
+    icon: HiOutlineDesktopComputer,
+    title: "Easy Service Booking",
+    description: "Book IT services quickly with a simple online request.",
   },
   {
     id: 2,
-    icon: HiOutlineLocationMarker,
-    title: "Live Tracking",
-    description: "Track your complaint in real time."
+    icon: HiOutlineClock,
+    title: "Fast Response",
+    description: "Our experts respond promptly to every service request.",
   },
   {
     id: 3,
-    icon: HiOutlineBell,
-    title: "Instant Notifications",
-    description: "Get updates whenever status changes."
+    icon: HiOutlineSupport,
+    title: "24×7 Technical Support",
+    description: "Get assistance whenever you need professional IT help.",
   },
   {
     id: 4,
     icon: HiOutlineShieldCheck,
-    title: "Secure Platform",
-    description: "Your information remains safe and protected."
+    title: "Certified Professionals",
+    description: "Experienced technicians delivering reliable solutions.",
   },
   {
     id: 5,
-    icon: HiOutlineUsers,
-    title: "Community Driven",
-    description: "Work together to improve your locality."
+    icon: HiOutlineCurrencyDollar,
+    title: "Affordable Pricing",
+    description: "Quality IT services at transparent and competitive prices.",
   },
   {
     id: 6,
-    icon: HiOutlineChartBar,
-    title: "Transparent Process",
-    description: "Monitor every stage of complaint resolution."
-  }
+    icon: HiOutlineThumbUp,
+    title: "Trusted Service",
+    description: "Customer satisfaction is our highest priority.",
+  },
 ];
-
-
