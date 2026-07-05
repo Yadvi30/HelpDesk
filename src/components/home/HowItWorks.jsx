@@ -5,8 +5,8 @@ import { useState } from "react";
 const HowItWorks = () => {
   const [activeStep, setActiveStep] = useState(1);
   return (
-    <section className="py-24 bg-gradient-to-b from-white to-blue-50">
-      <div className="max-w-6xl mx-auto px-6">
+    <section className="py-24 px-6 bg-gradient-to-b from-white to-blue-50">
+      <div className="max-w-7xl mx-auto px-6">
         {/* Heading */}
         <div className="text-center mb-16">
           <span className="inline-block px-5 py-2 rounded-full bg-blue-100 text-blue-600 font-semibold text-sm">

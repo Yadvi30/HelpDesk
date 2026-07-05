@@ -3,7 +3,7 @@ import FeatureCard from "../FeatureCards";
 
 const FeaturesSection = () => {
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-24 px-6 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900">

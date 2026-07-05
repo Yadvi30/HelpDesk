@@ -4,7 +4,7 @@ import ServiceCard from "../ServiceCard";
 
 const ServicesPreview = () => {
   return (
-    <section className="py-24 bg-gray-50">
+    <section className="py-24 px-6 bg-white">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Heading */}

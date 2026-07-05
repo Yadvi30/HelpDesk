@@ -81,7 +81,10 @@ const TimelineCard = ({
       <motion.div
         whileHover={{ y: -8, scale: 1.02 }}
         transition={{ duration: 0.3 }}
-        className="flex-1 rounded-3xl border border-gray-100 bg-white p-6 shadow-md hover:shadow-xl"
+          className="flex-1 rounded-3xl border                                border-gray-100 bg-white p-6 shadow-md hover:shadow-xl
+          hover:-translate-y-1
+          transition-all
+          duration-300"
       >
         <div className="flex items-center justify-between">
           <div className="flex gap-5">
