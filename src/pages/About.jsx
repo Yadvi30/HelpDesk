@@ -1,9 +1,15 @@
-const Home = () => {
+import AboutHero from "../components/about/AboutHero";
+import AboutHelpDesk from "../components/about/AboutHelpDesk";
+import MissionVision from "../components/about/MissionVision";
+
+const About = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center text-4xl font-bold">
-      About
-    </div>
+    <>
+      <AboutHero />
+      <AboutHelpDesk />
+      <MissionVision />
+    </>
   );
 };
 
-export default Home;
+export default About;
